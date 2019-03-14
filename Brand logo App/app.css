@@ -1,0 +1,29 @@
+div.brand-name {
+color: #484a36;
+float: left;
+font-weight: bold;
+margin: 0px 0px 0px 0px;
+padding-bottom: 5px;
+width: 100%;
+}
+
+div.brand-stats {
+-moz-border-radius: 8px;
+-webkit-border-radius: 8px;
+border-radius: 8px;
+padding: 5px 10px;
+text-align: center;
+margin-top: 5px;
+}
+
+div.care_premium {
+background-color: #edbab2;
+}
+
+div.essential_services {
+background-color: #bce86d;
+}
+
+div.care {
+background-color: #F4C800;
+}

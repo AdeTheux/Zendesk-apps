@@ -1,0 +1,3 @@
+<div class="centered-text">
+  <img src="{{assetURL "dot-spinner.gif"}}"></img>
+</div>

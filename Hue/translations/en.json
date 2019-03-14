@@ -1,0 +1,14 @@
+{
+  "app": {
+   "description": "Turn on or off your Philips Hue bulbs",
+   "name":        "Hue"
+  },
+
+  "add": {
+    "done":   "Hue turned on",
+    "failed": "Failed to communicate with Hue"
+  },
+
+  "turn_on": "Turn on Hue",
+  "current":                 "Current status of Hue"
+}

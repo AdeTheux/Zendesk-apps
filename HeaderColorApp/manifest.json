@@ -1,0 +1,14 @@
+{
+  "name": "Header Color Changer",
+  "author": {
+    "name": "Arnaud & Sandra",
+    "email": "services@zendesk.com"
+  },
+  "defaultLocale": "en",
+  "private": true,
+  "location": ["top_bar", "new_ticket_sidebar", "ticket_sidebar"],
+  "version": "1.0",
+  "singleInstall": true,
+  "noTemplate": true,
+  "frameworkVersion": "1.0"
+}

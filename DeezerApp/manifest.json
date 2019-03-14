@@ -1,0 +1,11 @@
+{
+  "name": "deezer App",
+  "author": {
+    "name": "Arnaud de Theux",
+    "email": "services@zendesk.com"
+  },
+  "defaultLocale": "en",
+  "private": true,
+  "location": "top_bar",
+  "frameworkVersion": "1.0"
+}

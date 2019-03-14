@@ -1,0 +1,3 @@
+<div class="row-fluid">
+  <iframe src="https://embed.deezer.com/?uri=deezer:trackset:{{info.query}}:{{ids}}" width="320" height="380" allowtransparency="true"></iframe>
+</div>

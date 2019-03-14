@@ -1,0 +1,6 @@
+<header>
+  <span class="logo"/>
+  <h3>{{setting "name"}}</h3>
+</header>
+<center><section data-main><button class="btn">Spam it!</button></section></center>
+</footer>

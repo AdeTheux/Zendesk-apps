@@ -1,0 +1,14 @@
+{
+  "name": "TUI Marine App",
+  "author": {
+    "name": "Arnaud de Theux",
+    "email": "services@zendesk.com",
+    "url": "http://www.zendesk.com"
+  },
+
+  "frameworkVersion": "1.0",
+  "location": ["ticket_sidebar","new_ticket_sidebar"],
+  "defaultLocale": "en",
+  "private": true,
+  "singleInstall": true,
+}

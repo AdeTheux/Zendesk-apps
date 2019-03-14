@@ -1,0 +1,21 @@
+<header>
+  <h3>Care Level</h3>
+</header>
+
+<div id="sla" class="content-sla">
+
+  <div id="care_premium" class="sla-stats care_premium" style="">
+    Care Premium
+  </div>
+
+  <div id="essential_services" class="sla-stats essential_services" style="">
+    Essential Services
+  </div>
+
+  <div id="care" class="sla-stats care" style="margin-bottom: 5px;clear:both;">
+    Care
+  </div>
+
+</div>
+
+<section data-main/>

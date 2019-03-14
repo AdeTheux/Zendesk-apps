@@ -1,0 +1,23 @@
+section[data-main] {
+  padding-top: 10px;
+}
+
+input.search-query {
+  width: 90%;
+}
+
+.form-search {
+  padding: 10px;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.deezer-app-container {
+  background: #2c2c2d;
+  max-width: 450px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
