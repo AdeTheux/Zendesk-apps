@@ -1,0 +1,78 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <!-- http://garden.zendesk.com -->
+  <link rel="stylesheet" href="https://assets.zendesk.com/apps/sdk-assets/css/2/zendesk_garden.css" type="text/css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous">
+</head>
+
+<body>
+
+  <div id="accordion">
+
+    <div class="u-mb-sm">
+      <h3 class="u-semibold u-mb-xs"><i class="fas fa-chart-bar"></i> Ride Earnings Breakdown</h3>
+
+      <ul>
+        <li class="u-zeta">Gross ride earnings: £3644</li>
+        <li class="u-zeta">Skycab commision: £728</li>
+        <li class="u-zeta">Tolls paid: £30</li>
+        <li class="u-semibold u-zeta">Net ride earnings: £2885</li>
+      </ul>
+    </div>
+
+    <div class="u-mb-sm">
+      <h3 class="u-semibold u-mb-xs"><i class="fas fa-graduation-cap"></i> Qualifications</h3>
+
+      <ul>
+        <li class="u-zeta">Competency and Screening 20/9/14</li>
+        <li class="u-zeta">Advanced Drivers Test 24/6/15</li>
+        <li class="u-zeta">Quality Level 2 20/3/17</li>
+      </ul>
+    </div>
+
+    <div class="u-mb-sm">
+      <h3 class="u-semibold"><i class="fas fa-history"></i> Ride History</h3>
+
+      <table class="c-table">
+        <tr class="c-table__row--header">
+          <td class="c-table__row__cell u-zeta">Time</td>
+          <td class="c-table__row__cell u-zeta">Distance</td>
+          <td class="c-table__row__cell u-zeta">Price</td>
+        </tr>
+        <tr class="c-table__row">
+          <td class="c-table__row__cell u-zeta">4:15PM</td>
+          <td class="c-table__row__cell u-zeta">6.2 mi</td>
+          <td class="c-table__row__cell u-zeta">£12.20</td>
+        </tr>
+        <tr class="c-table__row">
+          <td class="c-table__row__cell u-zeta">3:25PM</td>
+          <td class="c-table__row__cell u-zeta">13.4 mi</td>
+          <td class="c-table__row__cell u-zeta">£24.30</td>
+        </tr>
+        <tr class="c-table__row">
+          <td class="c-table__row__cell u-zeta">7:45AM</td>
+          <td class="c-table__row__cell u-zeta">1.2 mi</td>
+          <td class="c-table__row__cell u-zeta">£6.12</td>
+        </tr>
+      </table>
+    </div>
+
+  </div>
+
+  <!-- https://github.com/zendesk/zendesk_app_framework_sdk -->
+  <script type="text/javascript" src="https://assets.zendesk.com/apps/sdk/2.0/zaf_sdk.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <script>
+    // Initialise the Zendesk JavaScript API client
+    // https://developer.zendesk.com/apps/docs/apps-v2
+    var client = ZAFClient.init();
+    client.invoke('resize', { width: '100%', height: '410px' })
+
+  </script>
+</body>
+
+</html>
